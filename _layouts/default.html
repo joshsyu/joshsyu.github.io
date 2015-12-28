@@ -3,23 +3,25 @@
 
   {% include head.html %}
   <body>
-		  <!--
-	<script type="text/javascript"
-		  src="../mathjax/MathJax.js">
-		  </script>
-		 -- >
-    <div class="container content">
-      <header class="masthead">
-		 <script type="text/x-mathjax-config">
-			MathJax.Hub.Config({
-			tex2jax: {
-		  		inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-				processEscapes: true
-			}
+	  <div class="container content">
+		  <header class="masthead">
+			  <!-- MathJax -->
+			  <script type="text/javascript"
+			 src="../mathjax/MathJax.js">
+			 MathJax.Hub.Config({
+				 HTML: ["input/TeX","output/HTML-CSS"],
+				 TeX: { extensions: ["AMSmath.js","AMSsymbols.js"],
+					 equationNumbers: { autoNumber: "AMS"  } },
+					 extensions: ["tex2jax.js"],
+					 jax: ["input/TeX","output/HTML-CSS"],
+					 tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+						 displayMath: [ ['$$','$$'], ["\\[","\\]"]  ],
+						 processEscapes: true },
+					 "HTML-CSS": { availableFonts: ["TeX"],
+						 linebreaks: { automatic: true  } }
 
-  			});
-		 </script>
-		 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+			 });</script>
+			  <!-- MathJax -->
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>

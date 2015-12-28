@@ -2,7 +2,8 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
+markdown:            kramdown 
 
 # Setup
 title:               Josh's Web
@@ -29,7 +30,13 @@ version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
 
-markdown:            kramdown      
 kramdown:
     input: GFM
+
+#PAGINATION
+gems: 
+    - jekyll-paginate
+    - jekyll-gist
+paginate: 5
+paginate_path: "page:num"
 

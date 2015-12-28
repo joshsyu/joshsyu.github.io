@@ -3,12 +3,23 @@
 
   {% include head.html %}
   <body>
+		  <!--
 	<script type="text/javascript"
-		  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		  src="../mathjax/MathJax.js">
 		  </script>
-
+		 -- >
     <div class="container content">
       <header class="masthead">
+		 <script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			tex2jax: {
+		  		inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+				processEscapes: true
+			}
+
+  			});
+		 </script>
+		 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>

@@ -1,11 +1,11 @@
----
-layout: post
-title: Markdown
----
++++
+Title = "Markdown Syntax"
++++
 
 # Markdown Syntax
 Markdown 是一個輕量級標記式語言([wiki][wiki])，它是以純文字的方式編寫文件， 使用起來很方便，我喜歡用它來做筆記，它還可以表示數學表示式(Latex語法)且能夠輕易地將其轉成其他格式(HTML, PDF) 以下針對幾個常用的語法做記錄：
 
+<a name="font"/>
 ## Font
 - _Italic 斜體_
 
@@ -136,6 +136,16 @@ Syntax
 Preview
 
 > ![Github](https://cdn1.iconfinder.com/data/icons/picons-social/57/github-128.png)<br>![Github][gitimg]
+
+### Head link
+Markdown 可以link 同一份markdown 裡的標題  
+
+Syntax   
+ There must be a flag `<a name="tag"/>` in front of heading, and then  
+ `[a link](#tag)` link will work.  
+
+Preview  
+ [Font](#font)
 
 ## List
 - 有序條列

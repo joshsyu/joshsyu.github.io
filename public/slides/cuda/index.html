@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us" prefix="og: http://ogp.me/ns#">
+	<head>
+
+	
+		<script src="http://joshsyu.github.io/js/remark-latest.min.js"></script>
+		<style type="text/css">
+<div class="remark-slide-scaler" sylte="width: 100%; height: 100%; left: 0px; top: 0px;" </div>
+		</style>
+
+</head>
+<body>
+  <textarea id="source" class="hide-remark-source">
+# CUDA Profile
+---
+
+## Profile Tool
+- nvpp
+  - GUI tool
+- nvprof
+  - Command line tool
+---
+
+## nvprof
+- Basic
+  - nvprof -o [GUI output file] -s [executable file] [arguments]
+  - nvprof --log-file [output file]
+- More
+  - --print-gpu-trace
+  - --events
+  - --metrics
+---
+
+## Time
+- CPU Timers
+ ```
+  t1 = myCPUTimer();
+  launch &lt;&lt;&lt; &gt;&gt;&gt;;
+  cudaDeviceSynchronize();
+  t2 = myCPUTimer();
+ ```
+- CUDA Event
+  ```
+  cudaEvent_t start, stop;
+  cudaEventCreate(&amp;start);
+  cudaEventCreate(&amp;stop);
+  cudaEventRecord(start);
+  launch &lt;&lt;&lt; &gt;&gt;&gt;;
+  cudaEventRecord(stop);
+  cudaEventSynchronize(stop;
+  float milliseconds = 0;
+  cudaEventElapsedTime(&amp;milliseconds, start, stop);
+  cudaEventDestroy(&amp;start);
+  cudaEventDestroy(&amp;stop);
+  ```
+- Profile Tool
+---
+
+## Memory Bandwidth(GB/s)
+
+- Theoretical Bandwidth
+ - BW = memory clock rate * 10^6(Hz) * n-bit wide memory interface / 8(byte) * 2(double data rate DDR) / 10^9 (s)
+- Effective Bandwidth
+ - BW = data number * data byte * (RB &#43; WB) / (t * 10^9)
+---
+
+## Throughput(GFLOP)
+- Giga-Floating-point Operations per second
+- data number * float-point operations(add, mul)/ (t * 10^9)
+---
+
+## Reference
+[How to implement Performance Metrics in CUDA](http://devblogs.nvidia.com/parallelforall/how-implement-performance-metrics-cuda-cc/)
+
+
+  </textarea>
+  <script>
+    var replaceStateOld = window.history.replaceState;
+    window.history.replaceState = function(state, title, URL) {
+      var path = window.location.pathname + URL;
+      return replaceStateOld.apply(this, [state, title, path]);
+    }
+
+    var slideshow = remark.create({});
+
+  </script>
+</body>
+</html>
+

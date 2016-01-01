@@ -2,7 +2,7 @@
 Categories = ["Electrics"]
 Tags = []
 Title = "VCC, VDD and VSS"
-date = "2015-12-31T18:46:50+8:00"
+date = "2016-01-01T13:32:32+08:00"
 +++
 # VCC, VDD And VSS
 

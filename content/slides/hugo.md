@@ -2,6 +2,7 @@
 Categories = []
 Tags = []
 Title = "HUGO"
+date = "2016-01-01T13:32:32+08:00"
 +++
 
 # HUGO

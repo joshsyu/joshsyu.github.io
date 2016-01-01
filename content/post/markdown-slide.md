@@ -1,6 +1,7 @@
 +++
 Categories = []
 Title = "Make Slide with Markdown"
+date = "2016-01-01T13:32:32+08:00"
 +++
 # Markdown to Make Slide Presentation
 我喜歡用 Markdown 來記錄一些事情，因為他簡單明瞭又可以輕易轉成 HTML 呈現，最近找到幾個方案可以讓 Markdown 轉成像投影片那樣的呈現方式， 以下提供這幾個方案：  

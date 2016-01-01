@@ -9,6 +9,7 @@ copyright = "© 2015 Copyright Text"
 canonifyurls = true
 contentdir = "content"
 layoutdir = "layouts"
+publishdir = "public"
 
 [params]
   description = "Hello, it's my website" # optional

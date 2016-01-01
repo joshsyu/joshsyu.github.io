@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us" prefix="og: http://ogp.me/ns#">
+	<head>
+
+	
+		<script src="http://joshsyu.github.io/js/remark-latest.min.js"></script>
+		<style type="text/css">
+<div class="remark-slide-scaler" sylte="width: 100%; height: 100%; left: 0px; top: 0px;" </div>
+		</style>
+
+</head>
+<body>
+  <textarea id="source" class="hide-remark-source">
+# HUGO
+---
+
+	## Taxonomy
+	 * User-defined grouping of content
+	 * default: tags, categories
+
+	## Definitions
+	* Taxonomy: A categorization that can be used to classify content
+	* Term: A key within that taxonomy
+	* Value: A piece of content assigned to that Term
+---
+	## Example
+	There are taxonomies:
+	* Actor
+	* Directors
+	* Studios
+	* Genre
+	* ...
+	Hugo would automatically create pages for each Actor, Director...  
+	listing all of the Movie that matched specific Actor, Director
+---
+	## Example
+	Actor                   &lt;- Taxonomy
+		Bruce Wills         &lt;- Term
+			The Siz Sense   &lt;- Content
+			Unbreakable     &lt;- Content
+		Samuel L. Jackson   &lt;- Term
+			Unbreakable     &lt;- Content
+			xXx             &lt;- Content
+---
+	## Other display
+	Unbreakable     			&lt;- Content
+		Actors 					&lt;- Taxonomy
+			Bruce Wills 		&lt;- Term
+			Samuel L. Jackson  	&lt;- Term
+		Director 				&lt;- Taxonomy
+			M. Night Shyamalan  &lt;- Term
+---
+	## Usage
+	1. Must be defined in the site configuration
+		config.yaml:
+		```
+			taxonomies:
+			tag: &#34;tags&#34;
+			category: &#34;categories&#34;
+			series: &#34;series&#34;
+		```
+	2. Assigning taxonomy values to content
+		Front Matter Example:
+		```
+		title = &#34;Movie&#34;
+		tags = [&#34;Development&#34;, &#34;Go&#34;]
+		categories = [&#34;Development&#34;]
+		series = [&#34;Go Web Dev&#34;]
+		```
+---
+## Display
+	* Displaying taxonomy terms assigned to this content
+	* Listing content with the same taxonomy term
+	* Listing all content in a given taxonomy
+	* Rendering a Site&#39;s taxonomies
+	
+
+  </textarea>
+  <script>
+    var replaceStateOld = window.history.replaceState;
+    window.history.replaceState = function(state, title, URL) {
+      var path = window.location.pathname + URL;
+      return replaceStateOld.apply(this, [state, title, path]);
+    }
+
+    var slideshow = remark.create({});
+
+  </script>
+</body>
+</html>
+

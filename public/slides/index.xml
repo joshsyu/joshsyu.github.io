@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides on Josh&#39;s Web</title>
+    <link>http://joshsyu.github.io/slides/</link>
+    <description>Recent content in Slides on Josh&#39;s Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2015 Copyright Text</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 13:32:32 +0800</lastBuildDate>
+    <atom:link href="http://joshsyu.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HUGO</title>
+      <link>http://joshsyu.github.io/slides/hugo/</link>
+      <pubDate>Fri, 01 Jan 2016 13:32:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/slides/hugo/</guid>
+      <description>
+
+&lt;h1 id=&#34;hugo:32ab7241d48fcc174c877413a917f8cf&#34;&gt;HUGO&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Taxonomy
+ * User-defined grouping of content
+ * default: tags, categories
+
+## Definitions
+* Taxonomy: A categorization that can be used to classify content
+* Term: A key within that taxonomy
+* Value: A piece of content assigned to that Term
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Example
+There are taxonomies:
+* Actor
+* Directors
+* Studios
+* Genre
+* ...
+Hugo would automatically create pages for each Actor, Director...  
+listing all of the Movie that matched specific Actor, Director
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Example
+Actor                   &amp;lt;- Taxonomy
+    Bruce Wills         &amp;lt;- Term
+        The Siz Sense   &amp;lt;- Content
+        Unbreakable     &amp;lt;- Content
+    Samuel L. Jackson   &amp;lt;- Term
+        Unbreakable     &amp;lt;- Content
+        xXx             &amp;lt;- Content
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Other display
+Unbreakable                 &amp;lt;- Content
+    Actors                  &amp;lt;- Taxonomy
+        Bruce Wills         &amp;lt;- Term
+        Samuel L. Jackson   &amp;lt;- Term
+    Director                &amp;lt;- Taxonomy
+        M. Night Shyamalan  &amp;lt;- Term
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Usage
+1. Must be defined in the site configuration
+    config.yaml:
+    ```
+        taxonomies:
+        tag: &amp;quot;tags&amp;quot;
+        category: &amp;quot;categories&amp;quot;
+        series: &amp;quot;series&amp;quot;
+    ```
+2. Assigning taxonomy values to content
+    Front Matter Example:
+    ```
+    title = &amp;quot;Movie&amp;quot;
+    tags = [&amp;quot;Development&amp;quot;, &amp;quot;Go&amp;quot;]
+    categories = [&amp;quot;Development&amp;quot;]
+    series = [&amp;quot;Go Web Dev&amp;quot;]
+    ```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;display:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Display&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;* Displaying taxonomy terms assigned to this content
+* Listing content with the same taxonomy term
+* Listing all content in a given taxonomy
+* Rendering a Site&#39;s taxonomies
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CUDA Profile</title>
+      <link>http://joshsyu.github.io/slides/cuda/</link>
+      <pubDate>Thu, 31 Dec 2015 10:30:25 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/slides/cuda/</guid>
+      <description>
+
+&lt;h1 id=&#34;cuda-profile:c31ed99db68ceffce08473f2da36be79&#34;&gt;CUDA Profile&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;profile-tool:c31ed99db68ceffce08473f2da36be79&#34;&gt;Profile Tool&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nvpp
+
+&lt;ul&gt;
+&lt;li&gt;GUI tool&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;nvprof
+
+&lt;ul&gt;
+&lt;li&gt;Command line tool
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;nvprof:c31ed99db68ceffce08473f2da36be79&#34;&gt;nvprof&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic
+
+&lt;ul&gt;
+&lt;li&gt;nvprof -o [GUI output file] -s [executable file] [arguments]&lt;/li&gt;
+&lt;li&gt;nvprof &amp;ndash;log-file [output file]&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;More
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ndash;print-gpu-trace&lt;/li&gt;
+&lt;li&gt;&amp;ndash;events&lt;/li&gt;
+&lt;li&gt;&amp;ndash;metrics
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;time:c31ed99db68ceffce08473f2da36be79&#34;&gt;Time&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CPU Timers
+&lt;code&gt;
+t1 = myCPUTimer();
+launch &amp;lt;&amp;lt;&amp;lt; &amp;gt;&amp;gt;&amp;gt;;
+cudaDeviceSynchronize();
+t2 = myCPUTimer();
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CUDA Event
+&lt;code&gt;
+cudaEvent_t start, stop;
+cudaEventCreate(&amp;amp;start);
+cudaEventCreate(&amp;amp;stop);
+cudaEventRecord(start);
+launch &amp;lt;&amp;lt;&amp;lt; &amp;gt;&amp;gt;&amp;gt;;
+cudaEventRecord(stop);
+cudaEventSynchronize(stop;
+float milliseconds = 0;
+cudaEventElapsedTime(&amp;amp;milliseconds, start, stop);
+cudaEventDestroy(&amp;amp;start);
+cudaEventDestroy(&amp;amp;stop);
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Profile Tool
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;memory-bandwidth-gb-s:c31ed99db68ceffce08473f2da36be79&#34;&gt;Memory Bandwidth(GB/s)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Theoretical Bandwidth
+
+&lt;ul&gt;
+&lt;li&gt;BW = memory clock rate * 10^6(Hz) * n-bit wide memory interface / 8(byte) * 2(double data rate DDR) / 10^9 (s)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Effective Bandwidth
+
+&lt;ul&gt;
+&lt;li&gt;BW = data number * data byte * (RB + WB) / (t * 10^9)
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;throughput-gflop:c31ed99db68ceffce08473f2da36be79&#34;&gt;Throughput(GFLOP)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Giga-Floating-point Operations per second&lt;/li&gt;
+&lt;li&gt;data number * float-point operations(add, mul)/ (t * 10^9)
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;reference:c31ed99db68ceffce08473f2da36be79&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://devblogs.nvidia.com/parallelforall/how-implement-performance-metrics-cuda-cc/&#34;&gt;How to implement Performance Metrics in CUDA&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

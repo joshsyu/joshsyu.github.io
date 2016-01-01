@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resumes on Josh&#39;s Web</title>
+    <link>http://joshsyu.github.io/resume/</link>
+    <description>Recent content in Resumes on Josh&#39;s Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2015 Copyright Text</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 13:35:32 +0800</lastBuildDate>
+    <atom:link href="http://joshsyu.github.io/resume/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>aboutme</title>
+      <link>http://joshsyu.github.io/resume/aboutme/</link>
+      <pubDate>Fri, 01 Jan 2016 13:35:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/resume/aboutme/</guid>
+      <description>
+
+&lt;h1 id=&#34;josh-syu-hao-jhe-hsu:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Josh Syu (Hao Jhe Hsu)&lt;/h1&gt;
+
+&lt;p&gt;Master in Computer Science and software engineer&lt;br /&gt;
+ joshsyu.tw@gmail.com | &lt;a href=&#34;https://github.com/joshsyu&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;currently:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Currently&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m a system software engineer in &lt;a href=&#34;http://www.sslab.cs.nthu.edu.tw/&#34;&gt;Systm Software Lab&lt;/a&gt; in Taiwan.&lt;/p&gt;
+
+&lt;h2 id=&#34;education:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Education&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;2015 - 2016&lt;/code&gt;  &lt;strong&gt;National Tsing Hua University&lt;/strong&gt; (Taiwan) Mater&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Computer Science&lt;/em&gt;&lt;/strong&gt; (Advisor: &lt;a href=&#34;http://www.cs.nthu.edu.tw/~ychung/&#34;&gt;Prof. Yeh-Ching Chung&lt;/a&gt;)&lt;br /&gt;
+ &lt;code&gt;2012 - 2015&lt;/code&gt;  &lt;strong&gt;National Chung Cheng University&lt;/strong&gt; (Taiwan) Bachelor&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Electrical Engineer&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;experience-and-projects:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Experience and Projects&lt;/h2&gt;
+
+&lt;h3 id=&#34;hsa:e6001a249cf5befaf09e28d15df6b465&#34;&gt;HSA&lt;/h3&gt;
+
+&lt;h3 id=&#34;hsaemu:e6001a249cf5befaf09e28d15df6b465&#34;&gt;HSAemu&lt;/h3&gt;
+
+&lt;h3 id=&#34;pqemu:e6001a249cf5befaf09e28d15df6b465&#34;&gt;PQEMU&lt;/h3&gt;
+
+&lt;h3 id=&#34;real-time-attendance-tracking-system:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Real-time Attendance Tracking System&lt;/h3&gt;
+
+&lt;h3 id=&#34;tetris-game:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Tetris Game&lt;/h3&gt;
+
+&lt;h3 id=&#34;tiny-basic:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Tiny Basic&lt;/h3&gt;
+
+&lt;h3 id=&#34;vending-machine:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Vending Machine&lt;/h3&gt;
+
+&lt;h2 id=&#34;technical-skills:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Technical Skills&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C/C++&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;skills:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Skills&lt;/h2&gt;
+
+&lt;h2 id=&#34;awards:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Awards&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

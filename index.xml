@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh&#39;s Web</title>
+    <link>http://joshsyu.github.io/</link>
+    <description>Recent content on Josh&#39;s Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2015 Copyright Text</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 13:35:32 +0800</lastBuildDate>
+    <atom:link href="http://joshsyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>aboutme</title>
+      <link>http://joshsyu.github.io/resume/aboutme/</link>
+      <pubDate>Fri, 01 Jan 2016 13:35:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/resume/aboutme/</guid>
+      <description>
+
+&lt;h1 id=&#34;josh-syu-hao-jhe-hsu:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Josh Syu (Hao Jhe Hsu)&lt;/h1&gt;
+
+&lt;p&gt;Master in Computer Science and software engineer&lt;br /&gt;
+ joshsyu.tw@gmail.com | &lt;a href=&#34;https://github.com/joshsyu&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;currently:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Currently&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m a system software engineer in &lt;a href=&#34;http://www.sslab.cs.nthu.edu.tw/&#34;&gt;Systm Software Lab&lt;/a&gt; in Taiwan.&lt;/p&gt;
+
+&lt;h2 id=&#34;education:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Education&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;2015 - 2016&lt;/code&gt;  &lt;strong&gt;National Tsing Hua University&lt;/strong&gt; (Taiwan) Mater&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Computer Science&lt;/em&gt;&lt;/strong&gt; (Advisor: &lt;a href=&#34;http://www.cs.nthu.edu.tw/~ychung/&#34;&gt;Prof. Yeh-Ching Chung&lt;/a&gt;)&lt;br /&gt;
+ &lt;code&gt;2012 - 2015&lt;/code&gt;  &lt;strong&gt;National Chung Cheng University&lt;/strong&gt; (Taiwan) Bachelor&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Electrical Engineer&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;experience-and-projects:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Experience and Projects&lt;/h2&gt;
+
+&lt;h3 id=&#34;hsa:e6001a249cf5befaf09e28d15df6b465&#34;&gt;HSA&lt;/h3&gt;
+
+&lt;h3 id=&#34;hsaemu:e6001a249cf5befaf09e28d15df6b465&#34;&gt;HSAemu&lt;/h3&gt;
+
+&lt;h3 id=&#34;pqemu:e6001a249cf5befaf09e28d15df6b465&#34;&gt;PQEMU&lt;/h3&gt;
+
+&lt;h3 id=&#34;real-time-attendance-tracking-system:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Real-time Attendance Tracking System&lt;/h3&gt;
+
+&lt;h3 id=&#34;tetris-game:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Tetris Game&lt;/h3&gt;
+
+&lt;h3 id=&#34;tiny-basic:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Tiny Basic&lt;/h3&gt;
+
+&lt;h3 id=&#34;vending-machine:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Vending Machine&lt;/h3&gt;
+
+&lt;h2 id=&#34;technical-skills:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Technical Skills&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C/C++&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;skills:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Skills&lt;/h2&gt;
+
+&lt;h2 id=&#34;awards:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Awards&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax</title>
+      <link>http://joshsyu.github.io/2016/01/01/markdown-syntax/</link>
+      <pubDate>Fri, 01 Jan 2016 13:34:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/2016/01/01/markdown-syntax/</guid>
+      <description>
+
+&lt;h1 id=&#34;markdown-syntax:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Markdown Syntax&lt;/h1&gt;
+
+&lt;p&gt;Markdown 是一個輕量級標記式語言(&lt;a href=&#34;https://zh.wikipedia.org/wiki/Markdown#.E7.BC.96.E8.BE.91.E5.99.A8&#34;&gt;wiki&lt;/a&gt;)，它是以純文字的方式編寫文件， 使用起來很方便，我喜歡用它來做筆記，它還可以表示數學表示式(Latex語法)且能夠輕易地將其轉成其他格式(HTML, PDF) 以下針對幾個常用的語法做記錄：&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;font&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;font:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Font&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Italic 斜體&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;*Italic*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;_Italic_&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bold 粗體&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;`**Bold**`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Italic and Bold&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;`***Italic and Bold***`  
+
+`*_Italic and Bold_*`    
+
+`_*Italic and Bold*_`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Italic and Bold&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Color&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;`&amp;lt;font color=&#39;red&#39;&amp;gt; words &amp;lt;/font&amp;gt;`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Preview&lt;br /&gt;
+&lt;font color=&#39;0x00ffcc&#39;&gt; Hi &lt;/font&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Delete line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;`~~words~~`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;del&gt;Error&lt;/del&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;heading:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Heading&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;number of # represent the heading number&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;using dash &lt;code&gt;___&lt;/code&gt;(more than 3) under heading can do the same thing&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;h1 id=&#34;head-1:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Head 1&lt;/h1&gt;
+
+&lt;h2 id=&#34;head-2:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Head 2&lt;/h2&gt;
+
+&lt;h3 id=&#34;head-3:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Head 3&lt;/h3&gt;
+
+&lt;h4 id=&#34;head-4:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Head 4&lt;/h4&gt;
+
+&lt;h5 id=&#34;head-5:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Head 5&lt;/h5&gt;
+
+&lt;h3 id=&#34;indent:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;indent&lt;/h3&gt;
+
+&lt;p&gt;Syntax&lt;br&gt; &lt;code&gt;&amp;amp;nbsp;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;br&gt; Hi    Hello&lt;/p&gt;
+
+&lt;h3 id=&#34;line:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Line&lt;/h3&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Using dash ___ (more than 3)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;paragraph-or-new-line:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Paragraph or new line&lt;/h3&gt;
+
+&lt;p&gt;在 markdown 裡換行主要有兩個方式：
+- soft break: 在句尾多加兩個空白
+- hard break: 在兩句之間塞一行空白&lt;/p&gt;
+
+&lt;h2 id=&#34;block-quote:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Block quote&lt;/h2&gt;
+
+&lt;p&gt;假如需要用到引用可以使用 &lt;code&gt;&amp;gt;&lt;/code&gt; 將文字標註起來&lt;/p&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I&amp;rsquo;m Josh.&lt;/p&gt;
+
+&lt;p&gt;My country is Taiwan.&lt;br&gt;Welcome to my website. Hope you would like it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;link:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Link&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;inline link&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[words](links)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com.tw&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;extern link&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[words][tags]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com.tw&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;image-link:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Image link&lt;/h3&gt;
+
+&lt;p&gt;Markdown 也可以嵌入圖片方式跟連結一樣只是在前面多加了&lt;code&gt;!&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;![name](link)&lt;/code&gt;&lt;br&gt; &lt;code&gt;![name][link_tag]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn1.iconfinder.com/data/icons/picons-social/57/github-128.png&#34; alt=&#34;Github&#34; /&gt;&lt;br&gt;&lt;img src=&#34;https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png&#34; alt=&#34;Github&#34; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;head-link:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Head link&lt;/h3&gt;
+
+&lt;p&gt;Markdown 可以link 同一份markdown 裡的標題&lt;/p&gt;
+
+&lt;p&gt;Syntax&lt;br /&gt;
+ There must be a flag &lt;code&gt;&amp;lt;a name=&amp;quot;tag&amp;quot;/&amp;gt;&lt;/code&gt; in front of heading, and then&lt;br /&gt;
+ &lt;code&gt;[a link](#tag)&lt;/code&gt; link will work.&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;br /&gt;
+ &lt;a href=&#34;#font&#34;&gt;Font&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;list:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;List&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有序條列&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;`1. Item_1`     
+
+`2. Item_2`  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Preview&lt;br /&gt;
+  1. Item_1
+  2. Item_2&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;無序數列&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;* Item_1&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;* Item_2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview
+  - Item_1
+  - Item_2&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nested&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;* Item 1&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;`* Item 1_1`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Preview&lt;br /&gt;
+  - Item_1
+    - Item 1_1&lt;/p&gt;
+
+&lt;h2 id=&#34;math:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;用&lt;code&gt;$&lt;/code&gt;包起來的表示式可以呈現成數學式的樣子
+- inline display&lt;/p&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$expression$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;p&gt;The equation: $I = \int \rho R^2 dV$&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;extern display&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$$expression$$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;/p&gt;
+
+&lt;p&gt;The equation:&lt;/p&gt;
+
+&lt;p&gt;$$I = \int \rho R^2 dV$$&lt;/p&gt;
+
+&lt;h3 id=&#34;fraction:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Fraction&lt;/h3&gt;
+
+&lt;p&gt;Syntax&lt;br&gt;  &lt;code&gt;$\frac{numerator}{denominator}$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;$$\frac{x^2+y^2}{y^3}$$&lt;/p&gt;
+
+&lt;h3 id=&#34;index:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Index&lt;/h3&gt;
+
+&lt;p&gt;Syntax&lt;br&gt;  &lt;code&gt;$x^upper$&lt;/code&gt;&lt;br&gt;  &lt;code&gt;$x_sub$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Preview&lt;br&gt;  $x^2$   $x_2$&lt;/p&gt;
+
+&lt;h3 id=&#34;function:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Function&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;sqrt{}&lt;/code&gt; : $\sqrt{27}$&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;int{}&lt;/code&gt;  : $\int{}$&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;binom{}{}&lt;/code&gt;: $\binom{n}{m}$&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;overline{}&lt;/code&gt;: $\overline{x}$&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\log{}&lt;/code&gt; : $\log{x}$&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\sin{}&lt;/code&gt; : $\sin{x}$&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\frac{\partial f}{\partial x}&lt;/code&gt; : $\frac{\partial v}{\partial t}$&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\lim_{xtoy}&lt;/code&gt;: $\lim_{x \to y}$&lt;/p&gt;
+
+&lt;h3 id=&#34;expression:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Expression&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;x \in A&lt;/code&gt; : $x \in A$&lt;br&gt;&lt;code&gt;A \cap B&lt;/code&gt;: $A \cap B$&lt;br&gt;&lt;code&gt;A \cup B&lt;/code&gt;: $A \cup B$&lt;br&gt;&lt;code&gt;5 \pm 2&lt;/code&gt; : $5 \pm 2$&lt;br&gt;&lt;code&gt;\infty&lt;/code&gt;  : $\infty$&lt;/p&gt;
+
+&lt;h2 id=&#34;table:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Table&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;name&lt;/th&gt;
+&lt;th&gt;mail&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;josh&lt;/td&gt;
+&lt;td&gt;joshsyu.tw@gmail.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;reference:d59f7b4dfecd890f0583fb0bac5a436e&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://markdowntutorial.com/lesson/1/&#34;&gt;Markdown Online Lecture&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html&#34;&gt;Markdown Example&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;http://www.calvin.edu/~rpruim/courses/m343/F12/RStudio/LatexExamples.html&#34;&gt;Markdown Math Expression&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HUGO</title>
+      <link>http://joshsyu.github.io/slides/hugo/</link>
+      <pubDate>Fri, 01 Jan 2016 13:32:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/slides/hugo/</guid>
+      <description>
+
+&lt;h1 id=&#34;hugo:32ab7241d48fcc174c877413a917f8cf&#34;&gt;HUGO&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Taxonomy
+ * User-defined grouping of content
+ * default: tags, categories
+
+## Definitions
+* Taxonomy: A categorization that can be used to classify content
+* Term: A key within that taxonomy
+* Value: A piece of content assigned to that Term
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Example
+There are taxonomies:
+* Actor
+* Directors
+* Studios
+* Genre
+* ...
+Hugo would automatically create pages for each Actor, Director...  
+listing all of the Movie that matched specific Actor, Director
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Example
+Actor                   &amp;lt;- Taxonomy
+    Bruce Wills         &amp;lt;- Term
+        The Siz Sense   &amp;lt;- Content
+        Unbreakable     &amp;lt;- Content
+    Samuel L. Jackson   &amp;lt;- Term
+        Unbreakable     &amp;lt;- Content
+        xXx             &amp;lt;- Content
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Other display
+Unbreakable                 &amp;lt;- Content
+    Actors                  &amp;lt;- Taxonomy
+        Bruce Wills         &amp;lt;- Term
+        Samuel L. Jackson   &amp;lt;- Term
+    Director                &amp;lt;- Taxonomy
+        M. Night Shyamalan  &amp;lt;- Term
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;## Usage
+1. Must be defined in the site configuration
+    config.yaml:
+    ```
+        taxonomies:
+        tag: &amp;quot;tags&amp;quot;
+        category: &amp;quot;categories&amp;quot;
+        series: &amp;quot;series&amp;quot;
+    ```
+2. Assigning taxonomy values to content
+    Front Matter Example:
+    ```
+    title = &amp;quot;Movie&amp;quot;
+    tags = [&amp;quot;Development&amp;quot;, &amp;quot;Go&amp;quot;]
+    categories = [&amp;quot;Development&amp;quot;]
+    series = [&amp;quot;Go Web Dev&amp;quot;]
+    ```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;display:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Display&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;* Displaying taxonomy terms assigned to this content
+* Listing content with the same taxonomy term
+* Listing all content in a given taxonomy
+* Rendering a Site&#39;s taxonomies
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Make Slide with Markdown</title>
+      <link>http://joshsyu.github.io/2016/01/01/make-slide-with-markdown/</link>
+      <pubDate>Fri, 01 Jan 2016 13:32:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/2016/01/01/make-slide-with-markdown/</guid>
+      <description>
+
+&lt;h1 id=&#34;markdown-to-make-slide-presentation:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Markdown to Make Slide Presentation&lt;/h1&gt;
+
+&lt;p&gt;我喜歡用 Markdown 來記錄一些事情，因為他簡單明瞭又可以輕易轉成 HTML 呈現，最近找到幾個方案可以讓 Markdown 轉成像投影片那樣的呈現方式， 以下提供這幾個方案：&lt;br /&gt;
+- &lt;a href=&#34;#Reveal&#34;&gt;Reveal.js&lt;/a&gt;
+- &lt;a href=&#34;#Impress&#34;&gt;Impress.js&lt;/a&gt;
+- &lt;a href=&#34;#Remark&#34;&gt;Remark&lt;/a&gt;
+- &lt;a href=&#34;#Deck&#34;&gt;Deck.js&lt;/a&gt;
+- &lt;a href=&#34;#Landslid&#34;&gt;Landslide&lt;/a&gt;
+- &lt;a href=&#34;#Markdownpre&#34;&gt;Markdown Presenter&lt;/a&gt;
+- &lt;a href=&#34;#KeyDown&#34;&gt;KeyDown&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;Reveal&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;reveal-js:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Reveal.js&lt;/h2&gt;
+
+&lt;p&gt;這是最常看見與使用的方案，有很多的功能，支援 nested slides, Markdown content, PDF export, speaker notes&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://lab.hakim.se/reveal-js/#/&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;Impress&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;impress-js:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Impress.js&lt;/h2&gt;
+
+&lt;p&gt;一個非常炫麗的專案，讓投影片呈現的方式很動畫，做出來的樣子跟 &lt;a href=&#34;https://prezi.com/&#34;&gt;Prezi&lt;/a&gt; 很像&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/impress/impress.js&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://impress.github.io/impress.js/#/bored&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;Remark&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;remark:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Remark&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gnab/remark&#34;&gt;Github&lt;/a&gt; &lt;a href=&#34;http://gnab.github.io/remark/#19&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;Deck&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;deck-js:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Deck.js&lt;/h2&gt;
+
+&lt;p&gt;功能性很強的專案，甚至可以做一些 PowerPointer 的動畫，缺點是沒有直接支援 Markdown 語法&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/imakewebthings/deck.js&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://imakewebthings.com/deck.js/introduction/&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;Landslid&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;landslide:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Landslide&lt;/h2&gt;
+
+&lt;p&gt;滑動式的設計，讓投影片浮在網頁上滑動&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/adamzap/landslide#notes&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://landslide.adamzap.com/#slide1&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;Markdownpre&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;markdown-presenter:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Markdown Presenter&lt;/h2&gt;
+
+&lt;p&gt;單純使用但功能性較少&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/chrishulbert/MarkdownPresenter&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://chrishulbert.github.io/MarkdownPresenter/Presenter.html&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;KeyDown&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;keydown:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;KeyDown&lt;/h2&gt;
+
+&lt;p&gt;Markdown 跟 Deck.js 的結合，自成一個套件就嵌入網頁而言有點麻煩&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/infews/keydown&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://infews.github.io/keydown/&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;reference:a5b3d9d935a63ac2804f6b8e1dc32eb4&#34;&gt;Reference&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VCC, VDD and VSS</title>
+      <link>http://joshsyu.github.io/2016/01/01/vcc-vdd-and-vss/</link>
+      <pubDate>Fri, 01 Jan 2016 13:32:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/2016/01/01/vcc-vdd-and-vss/</guid>
+      <description>
+
+&lt;h1 id=&#34;vcc-vdd-and-vss:8b7ab39d610279ca4b83fbe98eda77d5&#34;&gt;VCC, VDD And VSS&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;VCC 是指電路(circuit)電壓&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;VDD 是指設備(device)工作電壓&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;VSS 是指串聯(serial)電壓，通常只共同接地&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CUDA Profile</title>
+      <link>http://joshsyu.github.io/slides/cuda/</link>
+      <pubDate>Thu, 31 Dec 2015 10:30:25 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/slides/cuda/</guid>
+      <description>
+
+&lt;h1 id=&#34;cuda-profile:c31ed99db68ceffce08473f2da36be79&#34;&gt;CUDA Profile&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;profile-tool:c31ed99db68ceffce08473f2da36be79&#34;&gt;Profile Tool&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nvpp
+
+&lt;ul&gt;
+&lt;li&gt;GUI tool&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;nvprof
+
+&lt;ul&gt;
+&lt;li&gt;Command line tool
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;nvprof:c31ed99db68ceffce08473f2da36be79&#34;&gt;nvprof&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic
+
+&lt;ul&gt;
+&lt;li&gt;nvprof -o [GUI output file] -s [executable file] [arguments]&lt;/li&gt;
+&lt;li&gt;nvprof &amp;ndash;log-file [output file]&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;More
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ndash;print-gpu-trace&lt;/li&gt;
+&lt;li&gt;&amp;ndash;events&lt;/li&gt;
+&lt;li&gt;&amp;ndash;metrics
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;time:c31ed99db68ceffce08473f2da36be79&#34;&gt;Time&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CPU Timers
+&lt;code&gt;
+t1 = myCPUTimer();
+launch &amp;lt;&amp;lt;&amp;lt; &amp;gt;&amp;gt;&amp;gt;;
+cudaDeviceSynchronize();
+t2 = myCPUTimer();
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CUDA Event
+&lt;code&gt;
+cudaEvent_t start, stop;
+cudaEventCreate(&amp;amp;start);
+cudaEventCreate(&amp;amp;stop);
+cudaEventRecord(start);
+launch &amp;lt;&amp;lt;&amp;lt; &amp;gt;&amp;gt;&amp;gt;;
+cudaEventRecord(stop);
+cudaEventSynchronize(stop;
+float milliseconds = 0;
+cudaEventElapsedTime(&amp;amp;milliseconds, start, stop);
+cudaEventDestroy(&amp;amp;start);
+cudaEventDestroy(&amp;amp;stop);
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Profile Tool
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;memory-bandwidth-gb-s:c31ed99db68ceffce08473f2da36be79&#34;&gt;Memory Bandwidth(GB/s)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Theoretical Bandwidth
+
+&lt;ul&gt;
+&lt;li&gt;BW = memory clock rate * 10^6(Hz) * n-bit wide memory interface / 8(byte) * 2(double data rate DDR) / 10^9 (s)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Effective Bandwidth
+
+&lt;ul&gt;
+&lt;li&gt;BW = data number * data byte * (RB + WB) / (t * 10^9)
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;throughput-gflop:c31ed99db68ceffce08473f2da36be79&#34;&gt;Throughput(GFLOP)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Giga-Floating-point Operations per second&lt;/li&gt;
+&lt;li&gt;data number * float-point operations(add, mul)/ (t * 10^9)
+&amp;mdash;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;reference:c31ed99db68ceffce08473f2da36be79&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://devblogs.nvidia.com/parallelforall/how-implement-performance-metrics-cuda-cc/&#34;&gt;How to implement Performance Metrics in CUDA&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

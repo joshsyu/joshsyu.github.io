@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electrics on Josh&#39;s Web</title>
+    <link>http://joshsyu.github.io/categories/electrics/</link>
+    <description>Recent content in Electrics on Josh&#39;s Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2015 Copyright Text</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 13:32:32 +0800</lastBuildDate>
+    <atom:link href="http://joshsyu.github.io/categories/electrics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>VCC, VDD and VSS</title>
+      <link>http://joshsyu.github.io/2016/01/01/vcc-vdd-and-vss/</link>
+      <pubDate>Fri, 01 Jan 2016 13:32:32 +0800</pubDate>
+      
+      <guid>http://joshsyu.github.io/2016/01/01/vcc-vdd-and-vss/</guid>
+      <description>
+
+&lt;h1 id=&#34;vcc-vdd-and-vss:8b7ab39d610279ca4b83fbe98eda77d5&#34;&gt;VCC, VDD And VSS&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;VCC 是指電路(circuit)電壓&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;VDD 是指設備(device)工作電壓&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;VSS 是指串聯(serial)電壓，通常只共同接地&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

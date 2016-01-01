@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Markdown Syntax</title>
+  <link href="http://joshsyu.github.io//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://joshsyu.github.io//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+  <style type="text/css">
+  
+    footer.page-footer{background-image: url(http://joshsyu.github.io//images/footerCover.png);}
+  
+  </style>
+</head>
+<body>
+  <ul id="slide-out" class="side-nav">
+    <li><a href="http://joshsyu.github.io/"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://joshsyu.github.io//categories"><i class="mdi-action-perm-media left"></i>Categories<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://joshsyu.github.io//tags"><i class="mdi-action-loyalty left"></i>Tags<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+  </ul>
+  <div id="index-banner" class="parallax-container">
+  <a data-activates="slide-out" class="btn-floating button-collapse" style="top: 5px; left: 5px;"><i class="mdi-navigation-menu"></i></a>
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center teal-text text-lighten-2">Josh&#39;s Web</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Hello, it&#39;s my website</h5>
+        </div>
+        <div class="row center">
+        
+          <a href="https://github.com/joshsyu"><img src="http://joshsyu.github.io//images/github2-dreamstale35.png"></a>
+        
+        
+        
+          <a href="https://twitter.com/joshsyu"><img src="http://joshsyu.github.io//images/twitter-dreamstale71.png"></a>
+        
+        
+        
+          <a href="http://joshsyu.github.io//index.xml"><img src="http://joshsyu.github.io//images/feed-dreamstale27.png"></a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+    
+      <img src="http://joshsyu.github.io//images/headerCover.png">
+    
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <h4>Markdown Syntax</h4>
+          <p>
+           
+          </p>
+          <p>
+
+<h1 id="markdown-syntax:d59f7b4dfecd890f0583fb0bac5a436e">Markdown Syntax</h1>
+
+<p>Markdown 是一個輕量級標記式語言(<a href="https://zh.wikipedia.org/wiki/Markdown#.E7.BC.96.E8.BE.91.E5.99.A8">wiki</a>)，它是以純文字的方式編寫文件， 使用起來很方便，我喜歡用它來做筆記，它還可以表示數學表示式(Latex語法)且能夠輕易地將其轉成其他格式(HTML, PDF) 以下針對幾個常用的語法做記錄：</p>
+
+<p><a name="font"/></p>
+
+<h2 id="font:d59f7b4dfecd890f0583fb0bac5a436e">Font</h2>
+
+<ul>
+<li><p><em>Italic 斜體</em></p>
+
+<p>Syntax</p>
+
+<p><code>*Italic*</code></p>
+
+<p><code>_Italic_</code></p>
+
+<p>Preview</p></li>
+</ul>
+
+<blockquote>
+<p><em>Italic</em></p>
+</blockquote>
+
+<ul>
+<li><strong>Bold 粗體</strong></li>
+</ul>
+
+<p>Syntax</p>
+
+<pre><code>`**Bold**`
+</code></pre>
+
+<p>Preview</p>
+
+<blockquote>
+<p><strong>Bold</strong></p>
+</blockquote>
+
+<ul>
+<li><strong><em>Italic and Bold</em></strong></li>
+</ul>
+
+<p>Syntax</p>
+
+<pre><code>`***Italic and Bold***`  
+
+`*_Italic and Bold_*`    
+
+`_*Italic and Bold*_`
+</code></pre>
+
+<p>Preview</p>
+
+<blockquote>
+<p><strong><em>Italic and Bold</em></strong></p>
+</blockquote>
+
+<ul>
+<li>Color</li>
+</ul>
+
+<p>Syntax</p>
+
+<pre><code>`&lt;font color='red'&gt; words &lt;/font&gt;`
+</code></pre>
+
+<p>Preview<br />
+<font color='0x00ffcc'> Hi </font></p>
+
+<ul>
+<li>Delete line</li>
+</ul>
+
+<p>Syntax</p>
+
+<pre><code>`~~words~~`
+</code></pre>
+
+<p>Preview</p>
+
+<blockquote>
+<p><del>Error</del></p>
+</blockquote>
+
+<h2 id="heading:d59f7b4dfecd890f0583fb0bac5a436e">Heading</h2>
+
+<ul>
+<li>number of # represent the heading number<br /></li>
+<li>using dash <code>___</code>(more than 3) under heading can do the same thing<br /></li>
+</ul>
+
+<p>Preview</p>
+
+<h1 id="head-1:d59f7b4dfecd890f0583fb0bac5a436e">Head 1</h1>
+
+<h2 id="head-2:d59f7b4dfecd890f0583fb0bac5a436e">Head 2</h2>
+
+<h3 id="head-3:d59f7b4dfecd890f0583fb0bac5a436e">Head 3</h3>
+
+<h4 id="head-4:d59f7b4dfecd890f0583fb0bac5a436e">Head 4</h4>
+
+<h5 id="head-5:d59f7b4dfecd890f0583fb0bac5a436e">Head 5</h5>
+
+<h3 id="indent:d59f7b4dfecd890f0583fb0bac5a436e">indent</h3>
+
+<p>Syntax<br> <code>&amp;nbsp;</code></p>
+
+<p>Preview<br> Hi    Hello</p>
+
+<h3 id="line:d59f7b4dfecd890f0583fb0bac5a436e">Line</h3>
+
+<p>Syntax</p>
+
+<p><code>Using dash ___ (more than 3)</code></p>
+
+<p>Preview</p>
+
+<hr />
+
+<h3 id="paragraph-or-new-line:d59f7b4dfecd890f0583fb0bac5a436e">Paragraph or new line</h3>
+
+<p>在 markdown 裡換行主要有兩個方式：
+- soft break: 在句尾多加兩個空白
+- hard break: 在兩句之間塞一行空白</p>
+
+<h2 id="block-quote:d59f7b4dfecd890f0583fb0bac5a436e">Block quote</h2>
+
+<p>假如需要用到引用可以使用 <code>&gt;</code> 將文字標註起來</p>
+
+<p>Syntax</p>
+
+<p><code>&gt;</code></p>
+
+<p>Preview</p>
+
+<blockquote>
+<p>I&rsquo;m Josh.</p>
+
+<p>My country is Taiwan.<br>Welcome to my website. Hope you would like it.</p>
+</blockquote>
+
+<h2 id="link:d59f7b4dfecd890f0583fb0bac5a436e">Link</h2>
+
+<ul>
+<li>inline link</li>
+</ul>
+
+<p>Syntax</p>
+
+<p><code>[words](links)</code></p>
+
+<p>Preview</p>
+
+<blockquote>
+<p><a href="https://www.google.com.tw">Google</a></p>
+</blockquote>
+
+<ul>
+<li>extern link<br /></li>
+</ul>
+
+<p>Syntax</p>
+
+<p><code>[words][tags]</code></p>
+
+<p>Preview</p>
+
+<blockquote>
+<p><a href="https://www.google.com.tw">Google</a></p>
+</blockquote>
+
+<h3 id="image-link:d59f7b4dfecd890f0583fb0bac5a436e">Image link</h3>
+
+<p>Markdown 也可以嵌入圖片方式跟連結一樣只是在前面多加了<code>!</code></p>
+
+<p>Syntax</p>
+
+<p><code>![name](link)</code><br> <code>![name][link_tag]</code></p>
+
+<p>Preview</p>
+
+<blockquote>
+<p><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github-128.png" alt="Github" /><br><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png" alt="Github" /></p>
+</blockquote>
+
+<h3 id="head-link:d59f7b4dfecd890f0583fb0bac5a436e">Head link</h3>
+
+<p>Markdown 可以link 同一份markdown 裡的標題</p>
+
+<p>Syntax<br />
+ There must be a flag <code>&lt;a name=&quot;tag&quot;/&gt;</code> in front of heading, and then<br />
+ <code>[a link](#tag)</code> link will work.</p>
+
+<p>Preview<br />
+ <a href="#font">Font</a></p>
+
+<h2 id="list:d59f7b4dfecd890f0583fb0bac5a436e">List</h2>
+
+<ul>
+<li>有序條列</li>
+</ul>
+
+<p>Syntax</p>
+
+<pre><code>`1. Item_1`     
+
+`2. Item_2`  
+</code></pre>
+
+<p>Preview<br />
+  1. Item_1
+  2. Item_2</p>
+
+<ul>
+<li>無序數列</li>
+</ul>
+
+<p>Syntax</p>
+
+<p><code>* Item_1</code></p>
+
+<p><code>* Item_2</code></p>
+
+<p>Preview
+  - Item_1
+  - Item_2</p>
+
+<ul>
+<li>Nested</li>
+</ul>
+
+<p>Syntax</p>
+
+<p><code>* Item 1</code></p>
+
+<pre><code>`* Item 1_1`
+</code></pre>
+
+<p>Preview<br />
+  - Item_1
+    - Item 1_1</p>
+
+<h2 id="math:d59f7b4dfecd890f0583fb0bac5a436e">Math</h2>
+
+<p>用<code>$</code>包起來的表示式可以呈現成數學式的樣子
+- inline display</p>
+
+<p>Syntax</p>
+
+<p><code>$expression$</code></p>
+
+<p>Preview</p>
+
+<p>The equation: $I = \int \rho R^2 dV$</p>
+
+<ul>
+<li>extern display<br /></li>
+</ul>
+
+<p>Syntax</p>
+
+<p><code>$$expression$$</code></p>
+
+<p>Preview</p>
+
+<p>The equation:</p>
+
+<p>$$I = \int \rho R^2 dV$$</p>
+
+<h3 id="fraction:d59f7b4dfecd890f0583fb0bac5a436e">Fraction</h3>
+
+<p>Syntax<br>  <code>$\frac{numerator}{denominator}$</code></p>
+
+<p>Preview<br></p>
+
+<p>$$\frac{x^2+y^2}{y^3}$$</p>
+
+<h3 id="index:d59f7b4dfecd890f0583fb0bac5a436e">Index</h3>
+
+<p>Syntax<br>  <code>$x^upper$</code><br>  <code>$x_sub$</code></p>
+
+<p>Preview<br>  $x^2$   $x_2$</p>
+
+<h3 id="function:d59f7b4dfecd890f0583fb0bac5a436e">Function</h3>
+
+<p><code>sqrt{}</code> : $\sqrt{27}$</p>
+
+<p><code>int{}</code>  : $\int{}$</p>
+
+<p><code>binom{}{}</code>: $\binom{n}{m}$</p>
+
+<p><code>overline{}</code>: $\overline{x}$</p>
+
+<p><code>\log{}</code> : $\log{x}$</p>
+
+<p><code>\sin{}</code> : $\sin{x}$</p>
+
+<p><code>\frac{\partial f}{\partial x}</code> : $\frac{\partial v}{\partial t}$</p>
+
+<p><code>\lim_{xtoy}</code>: $\lim_{x \to y}$</p>
+
+<h3 id="expression:d59f7b4dfecd890f0583fb0bac5a436e">Expression</h3>
+
+<p><code>x \in A</code> : $x \in A$<br><code>A \cap B</code>: $A \cap B$<br><code>A \cup B</code>: $A \cup B$<br><code>5 \pm 2</code> : $5 \pm 2$<br><code>\infty</code>  : $\infty$</p>
+
+<h2 id="table:d59f7b4dfecd890f0583fb0bac5a436e">Table</h2>
+
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>mail</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>josh</td>
+<td>joshsyu.tw@gmail.com</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="reference:d59f7b4dfecd890f0583fb0bac5a436e">Reference</h2>
+
+<p><a href="http://markdowntutorial.com/lesson/1/">Markdown Online Lecture</a><br><a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Markdown Example</a><br><a href="http://www.calvin.edu/~rpruim/courses/m343/F12/RStudio/LatexExamples.html">Markdown Math Expression</a></p>
+</p>
+          <p>1 Jan 2016
+            
+          </p>
+          
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'Your Disqus Name';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://joshsyu.github.io/resume/aboutme/"><i class="mdi-navigation-arrow-back"></i></a>
+      
+      </div>
+      <div class="col s6 m10 center">&nbsp</div>
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://joshsyu.github.io/slides/hugo/"><i class="mdi-navigation-arrow-forward"></i></a>
+      
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2015 Copyright Text
+      <div class="right">Design <a class="grey-text text-lighten-4" href="http://pdevty.github.io/blog/">pdevty</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://joshsyu.github.io//js/materialize.min.js"></script>
+  <script src="http://joshsyu.github.io//js/init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  </body>
+</html>
+

@@ -29,8 +29,13 @@
 
 &lt;h2 id=&#34;education:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Education&lt;/h2&gt;
 
-&lt;p&gt;&lt;code&gt;2015 - 2016&lt;/code&gt;  &lt;strong&gt;National Tsing Hua University&lt;/strong&gt; (Taiwan) Mater&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Computer Science&lt;/em&gt;&lt;/strong&gt; (Advisor: &lt;a href=&#34;http://www.cs.nthu.edu.tw/~ychung/&#34;&gt;Prof. Yeh-Ching Chung&lt;/a&gt;)&lt;br /&gt;
- &lt;code&gt;2012 - 2015&lt;/code&gt;  &lt;strong&gt;National Chung Cheng University&lt;/strong&gt; (Taiwan) Bachelor&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Electrical Engineer&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2015-2016&lt;/code&gt;   &lt;strong&gt;National Tsing Hua University&lt;/strong&gt; (Taiwan)&lt;br /&gt;
+                Mater&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Computer Science&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+                Advisor: &lt;a href=&#34;http://www.cs.nthu.edu.tw/~ychung/&#34;&gt;Prof. Yeh-Ching Chung&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;2011-2015&lt;/code&gt;   &lt;strong&gt;National Chung Cheng University&lt;/strong&gt; (Taiwan)&lt;br /&gt;
+                Bachelor&amp;rsquo;s program in &lt;strong&gt;&lt;em&gt;Electrical Engineer&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+                Book Prize 7 times for 7 semesters&lt;/p&gt;
 
 &lt;h2 id=&#34;experience-and-projects:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Experience and Projects&lt;/h2&gt;
 
@@ -42,21 +47,85 @@
 
 &lt;h3 id=&#34;real-time-attendance-tracking-system:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Real-time Attendance Tracking System&lt;/h3&gt;
 
+&lt;h3 id=&#34;family-monitoring-system:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Family Monitoring System&lt;/h3&gt;
+
 &lt;h3 id=&#34;tetris-game:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Tetris Game&lt;/h3&gt;
 
 &lt;h3 id=&#34;tiny-basic:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Tiny Basic&lt;/h3&gt;
 
 &lt;h3 id=&#34;vending-machine:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Vending Machine&lt;/h3&gt;
 
-&lt;h2 id=&#34;technical-skills:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;h3 id=&#34;github-pages:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Github Pages&lt;/h3&gt;
+
+&lt;h2 id=&#34;computing-languages:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Computing Languages&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C/C++&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Go Language&lt;/li&gt;
+&lt;li&gt;Assembly Language&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;skills:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Skills&lt;/h2&gt;
+&lt;h2 id=&#34;technical-skills:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Technical Skills&lt;/h2&gt;
 
-&lt;h2 id=&#34;awards:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Awards&lt;/h2&gt;
+&lt;h3 id=&#34;development-platform:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Development Platform&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;FreeBSD&lt;/li&gt;
+&lt;li&gt;GNU tools&lt;/li&gt;
+&lt;li&gt;GDB&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Qemu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;virtualization-platform:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Virtualization Platform&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;VMware&lt;/li&gt;
+&lt;li&gt;VirtualBox&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ic-design:e6001a249cf5befaf09e28d15df6b465&#34;&gt;IC design:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Verilog&lt;/li&gt;
+&lt;li&gt;EDA tools&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;high-performance-computing:e6001a249cf5befaf09e28d15df6b465&#34;&gt;High Performance Computing:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OpenCL&lt;/li&gt;
+&lt;li&gt;CUDA&lt;/li&gt;
+&lt;li&gt;HSA&lt;/li&gt;
+&lt;li&gt;Pthread&lt;/li&gt;
+&lt;li&gt;OpenMP&lt;/li&gt;
+&lt;li&gt;MPI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;libarary:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Libarary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OpenCV&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;website-framework:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Website Framework&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jekyll&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;others:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Others&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;Latex&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;publications:e6001a249cf5befaf09e28d15df6b465&#34;&gt;Publications&lt;/h2&gt;
 </description>
     </item>
     
